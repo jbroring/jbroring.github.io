@@ -1,0 +1,57 @@
+#container {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-right:10%;
+}
+
+h1, h2, h3, h4 {
+  font-family: Helvetica;
+  color: #51B6F5;
+  margin: 0px;
+}
+h1 {
+  font-size: 42pt;
+  line-height: 46pt;
+}
+h3 ,h3 a{
+  font-size: 14pt;
+  line-height: 20pt;
+}
+p {
+  font-family: Helvetica-Light;
+  font-size: 14pt;
+  color: #000000;
+  line-height: 20pt;
+  max-width: 580px;
+}
+p a, #contact a {
+  color: #51B6F5;
+  text-decoration: none;
+}
+a:hover, a:active, #contact a:hover, #contact a:active {
+  text-decoration: underline !important;
+  color: #51B6F5 !important;
+}
+#date {
+  font-family: Helvetica;
+  font-size: 8pt;
+  color: #A6AAA9;
+  line-height: 10pt;
+}
+#contact, #contact a {
+  font-family: Helvetica;
+  font-size: 10pt;
+  color: #A6AAA9;
+  line-height: 20pt;
+}
+.buy_btn {
+  font-family: Helvetica-Light;
+  font-size: 14pt;
+  color: #000000;
+  line-height: 20pt;
+  max-width: 580px;
+}
+.buy_btn a {
+  color: #51B6F5;
+  text-decoration: none;
+}
