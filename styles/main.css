@@ -1,57 +1,129 @@
+/*FLEXBOX*/
+
 #container {
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-right:10%;
+    margin: 0 10%;
+    padding-top: 48pt;
 }
 
-h1, h2, h3, h4 {
-  font-family: Helvetica;
-  color: #51B6F5;
-  margin: 0px;
+.intro {
+    width: 100%;
 }
+
+#inside-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24pt;
+    max-width: 868pt;
+}
+
+.work-study {
+    margin-right: 80pt;
+    max-width: 392pt;
+}
+
+.side-projects {
+    max-width: 392pt;
+}
+
+
+/*FONTS */
+
+h1, h2, h3, h4, p, a {
+    margin: 0;
+    color: black;
+}
+
+h1, h2 {
+    font-family: 'Ubuntu', 'SanFrancisco', sans-serif;
+    font-style: normal;
+    color: #51B6F5;
+    margin: 16pt 0;
+    font-weight: 500;
+}
+
 h1 {
-  font-size: 42pt;
-  line-height: 46pt;
+    font-size: 42pt;
 }
-h3 ,h3 a{
-  font-size: 14pt;
-  line-height: 20pt;
+
+h2 {
+    font-size: 26pt;
 }
+
+h3, h4 {
+    font-family: 'Open Sans', 'SanFrancisco', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 18pt;
+    line-height: 26pt;
+}
+
+h4 {
+    font-size: 15pt;
+    line-height: 20pt;
+}
+
 p {
-  font-family: Helvetica-Light;
-  font-size: 14pt;
-  color: #000000;
-  line-height: 20pt;
-  max-width: 580px;
+    font-family: 'Open Sans', 'SanFrancisco', sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20pt;
+    max-width: 580pt;
+    margin: 8pt 0;
 }
-p a, #contact a {
-  color: #51B6F5;
-  text-decoration: none;
+
+p i {
+    font-style: italic;
 }
-a:hover, a:active, #contact a:hover, #contact a:active {
-  text-decoration: underline !important;
-  color: #51B6F5 !important;
+
+.date {
+    margin: 4px 0;
+    font-size: 12pt;
+    color: #404040;
 }
-#date {
-  font-family: Helvetica;
-  font-size: 8pt;
-  color: #A6AAA9;
-  line-height: 10pt;
+
+section {
+    padding: 16px 0;
 }
-#contact, #contact a {
-  font-family: Helvetica;
-  font-size: 10pt;
-  color: #A6AAA9;
-  line-height: 20pt;
+
+/*LITTLEMOVINGTHINGS*/
+
+.lmt-images {
+    margin: 8pt 16pt 0 0;
 }
-.buy_btn {
-  font-family: Helvetica-Light;
-  font-size: 14pt;
-  color: #000000;
-  line-height: 20pt;
-  max-width: 580px;
+
+.lmt-photo {
+    margin-right: 8pt;
 }
-.buy_btn a {
-  color: #51B6F5;
-  text-decoration: none;
+
+.lmt-insta {
+    margin-left: 8pt;
 }
+
+/*READ MORE OR LESS*/
+
+#moreLabs {
+    display: none;
+}
+
+#moreMthd {
+    display: none;
+}
+
+#readMoreBtnLabs, #readLessBtnLabs, #readMoreBtnMthd, #readLessBtnMthd {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*p a, #contact a {*/
+/*    color: #51B6F5;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a:hover, a:active, #contact a:hover, #contact a:active {*/
+/*    text-decoration: underline !important;*/
+/*    color: #51B6F5 !important;*/
+/*}*/
