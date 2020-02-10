@@ -70,7 +70,7 @@ h3 {
 }
 
 h4 {
-    font-size: 15pt;
+    font-size: 13pt;
     line-height: 20pt;
 }
 
@@ -86,6 +86,10 @@ p {
 
 p i {
     font-style: italic;
+}
+
+.until {
+    font-weight: normal;
 }
 
 .date {
