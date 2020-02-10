@@ -25,6 +25,16 @@
     max-width: 392pt;
 }
 
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+    #inside-container {
+        flex-direction: column;
+    }
+
+    .work-study {
+        margin-right: 0;
+    }
+}
 
 /*FONTS */
 
