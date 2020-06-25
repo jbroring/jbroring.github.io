@@ -1,5 +1,11 @@
-/*FLEXBOX*/
+/* blue / Cerulean #0e87d3 */
+/* white / gray Athens Gray #f2f2f4 */
 
+body {
+  background-color: #f2f2f4;
+}
+
+/*FLEXBOX*/
 #container {
     margin: 0 10%;
     padding-top: 48pt;
@@ -40,13 +46,13 @@
 
 h1, h2, h3, h4, p, a {
     margin: 0;
-    color: black;
+    color: #074369;
 }
 
 h1, h2 {
     font-family: 'Ubuntu', 'SanFrancisco', sans-serif;
     font-style: normal;
-    color: #51B6F5;
+    color: #0e87d3;
     margin: 16pt 0;
     font-weight: 500;
 }
@@ -64,8 +70,12 @@ h3, h4 {
     font-weight: 700;
 }
 
+h3, h3 a {
+  color: #074369;
+}
+
 h3 {
-    font-size: 18pt;
+    font-size: 16pt;
     line-height: 26pt;
 }
 
@@ -81,7 +91,7 @@ p {
     color: #000000;
     line-height: 20pt;
     max-width: 580pt;
-    margin: 8pt 0;
+    margin: 4pt 0;
 }
 
 p i {
@@ -93,7 +103,7 @@ p i {
 }
 
 .date {
-    margin: 4px 0;
+    margin: 0;
     font-size: 12pt;
     color: #404040;
 }
