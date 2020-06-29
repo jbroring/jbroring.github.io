@@ -2,7 +2,8 @@
 /* white / gray Athens Gray #f2f2f4 */
 
 body {
-  background-color: #f2f2f4;
+    background-color: #f2f2f4;
+    font-family: 'Open Sans', 'SanFrancisco', sans-serif;
 }
 
 /*FLEXBOX*/
@@ -81,7 +82,6 @@ h4 {
 }
 
 p {
-    font-family: 'Open Sans', 'SanFrancisco', sans-serif;
     font-size: 13pt;
     font-weight: 400;
     color: #000000;
@@ -137,13 +137,14 @@ section {
     cursor: pointer;
 }
 
+.footer {
+    height: 48px;
+}
 
-/*p a, #contact a {*/
-/*    color: #51B6F5;*/
-/*    text-decoration: none;*/
-/*}*/
+.footer p {
+    font-size: 10pt;
+}
 
-/*a:hover, a:active, #contact a:hover, #contact a:active {*/
-/*    text-decoration: underline !important;*/
-/*    color: #51B6F5 !important;*/
-/*}*/
+.footer a {
+    font-weight: 600;
+}

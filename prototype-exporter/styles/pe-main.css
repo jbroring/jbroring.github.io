@@ -97,3 +97,15 @@ strong {
 .faq {
     margin-bottom: 8pt;
 }
+
+.footer {
+    height: 48px;
+}
+
+.footer p {
+    font-size: 10pt;
+}
+
+.footer a {
+    font-weight: 600;
+}
